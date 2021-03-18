@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">FLOW</h1>
+           <div class="menu-toggle" id="mobile-menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+           </div> 
+           <ul class="nav-menu">
+              <li><a href="#" class="nav-links">Home</a></li> 
+              <li><a href="#" class="nav-links">Services</a></li>
+              <li><a href="#" class="nav-links">About Us</a></li>
+              <li><a href="#" class="nav-links">Contact Us</a></li>
+              <li><a href="#" class="nav-links nav-links-btn">Sign Up</a></li>
+           </ul>
+        </nav>
+    </div>
+<!--1.content-->
+    <div class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Skyrocket your product</h1>
+                <p>Flow allows you to fully automate your business so you can focus on what's important</p>
+                <button class="main-btn"><a href="#">Get Started</a></button>
+            </div>
+            <div class="main-img-container">
+                <img src="images/pick1.svg" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+    <!--1.horizontal line-->
+    <div class="line-container">
+    <div class="line-1"><hr></div>
+    </div>
+    <!--2.content-->
+    <div class="main">
+        <div class="main-container">
+            <div class="main-img-container">
+                <img src="images/pick2.svg" alt="" id="main-img">
+            </div>
+            <div class="main-content">
+                <h1>Our digital marketing solutions</h1>
+                <ul class="marketing-list">
+                    <li class="li">Web content management and publishing</li>
+                    <li class="li">Email design and distribution</li>
+                    <li class="li">Creative services</li>
+                    <li class="li">Advertising</li>
+                    <li class="li">Social media support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--2.horizontal line-->
+    <div class="line2-container">
+        <div class="line-2"><hr></div>
+        </div>
+    <!--3.content-->
+    <div class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Meaningful results</h1>
+                <p>
+                    We prioritise building meaningful relationships. You're not just our client, you're our partner! And the closer we can work together, the better results we can achieve.</p>
+            </div>
+            <div class="main-img-container">
+                <img src="images/result.svg" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+               <h2>About Us</h2> 
+               <a href="#">Blog</a>
+               <a href="#">Demo</a>
+               <a href="#">Customers</a>
+               <a href="#">Investors</a>
+               <a href="#">Terms of  Service</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact Us</h2> 
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorship</a>
+             </div>
+             <div class="footer-heading footer-3">
+                <h2>Social Media</h2> 
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+             </div>
+             <div class="footer-email-form">
+                 <h2>Join our newsletter</h2>
+                 <input type="email" placeholder="Enter your email address" id="footer-email">
+                 <input type="submit" value="Sign up" id="footer-email-btn">
+             </div>
+        </div>
+    </div>
+    <!--popup email window-->
+    <div class="modal" id="email-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-content-left">
+                <img id="modal-img" src="images/email-space.svg" alt="">
+            </div>  
+            <div class="modal-content-right">
+                <form action="/" class="modal-form" id="form">
+                <h1>Get started with us today! Create your account by filling out the information bellow.</h1>
+                <div class="form-validation">
+                    <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name">
+                    <p>Error Message</p>
+                </div>
+                <div class="form-validation">
+                    <input type="email" class="modal-input" id="email" name="email" placeholder="Enter your email">
+                    <p>Error Message</p>
+                </div>
+                <div class="form-validation">
+                    <input type="password" class="modal-input" id="password" name="password" placeholder="Enter your password">
+                    <p>Enter your password</p>
+                </div>
+                <div class="form-validation">
+                    <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Confirm your password">
+                    <p>Error Message</p>
+                </div>
+                <input type="submit" class="modal-input-btn" value="Sign up">
+                <span class="modal-input-login">Already have an account? Login <a href="#">here</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
